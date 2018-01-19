@@ -1,0 +1,74 @@
+body{
+	background: #00FFFF;
+	margin:0;
+	padding: 0;
+	font-family: Arial, Helvitica;
+
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.machine{
+	min-height: 400px;
+	text-align: center;
+	background: url("../imag/jojofor.jpg");
+	background-size: cover;
+	color: black;
+}
+
+.header{
+	min-height: 80px;
+	background: #35424a;
+	color: #fff
+	padding-top: 30px;
+	border-bottom: 5px yellow solid;
+}
+.nav a{
+ 	color: #fff;
+ 	text-decoration:none;
+ 	font-size: 18px;
+ 	text-transform: uppercase;
+}
+.nav li {
+	list-style: none;
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+.branding{
+	float: left;
+}
+.nav{
+	float: right;
+	margin-top: 10px;
+}
+.nav a:hover {
+	color: purple;
+	font-weight: lighter;
+}
+.imag {
+	margin-top: 20px;
+	display: block;
+}
+.box{
+	float: left;
+	text-align: center;
+	padding:10px;
+	width: 30%;
+	border: double;
+}
+.box img{
+	width: 90px;
+	border: double;
+}
+.footer{
+	padding: 20px;
+	background-color: blue;
+	clear: both;
+	text-align: center;
+	color: pink;
+}
+span{
+	background-color: pink; 
+}
